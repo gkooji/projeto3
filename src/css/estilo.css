@@ -1,5 +1,5 @@
 :root{
-    --color1:#f0f0f0
+    --color1:#f0f0f0;
     --color2:#333;
     --color3:#555;
     --color4:#3ae4b1;
@@ -46,5 +46,20 @@ header nav ul li a{
 
 hearder nav ul li a:hover{
     color:var(--color4);
-    
+
+}
+.cor{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background:var(--colorLinear);
+}
+#texto{
+    font-size:3rem;
+    text-align:center;
+    margin-top:100px;
+    text-transform:uppercase;
+    background:var(--colorLinear);
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
 }
